@@ -7,17 +7,17 @@ Instagram da ct junior
 
     [X] Deve ser possível se autenticar.
 
-    [ ] Deve ser possível obter os posts de um usuário logado ([GET] /my-posts).
+    [X] Deve ser possível obter os posts de um usuário logado ([GET] /my-posts).
 
-    [ ] Deve ser possível obter o feed de postagens de todos os usuários ([GET] /posts).
+    [X] Deve ser possível obter o feed de postagens de todos os usuários ([GET] /posts).
 
-    [ ] Deve ser possível editar o próprio perfil (foto).
+    [X] Deve ser possível editar o próprio perfil (foto).
 
-    [ ] Deve ser possível criar uma nova postagem.
+    [X] Deve ser possível criar uma nova postagem.
 
-    [ ] Deve ser possível editar uma postagem própria.
+    [X] Deve ser possível editar uma postagem própria.
 
-    [ ] Deve ser possível deletar uma postagem própria.
+    [X] Deve ser possível deletar uma postagem própria.
 
     [ ] Deve haver um mecanismo de Logout.
 
@@ -25,15 +25,15 @@ Instagram da ct junior
 
     [X] O usuário não deve poder se cadastrar com um username ou e-mail duplicado.
 
-    [ ] O usuário só pode alterar a própria foto de perfil.
+    [X] O usuário só pode alterar a própria foto de perfil.
 
-    [ ] O usuário só pode editar a descrição de um post que pertence a ele.
+    [X] O usuário só pode editar a descrição de um post que pertence a ele.
 
-    [ ] O usuário só pode deletar um post que pertence a ele.
+    [X] O usuário só pode deletar um post que pertence a ele.
 
-    [ ] O feed de postagens deve ser listado em ordem do mais recente para o mais antigo.
+    [X] O feed de postagens deve ser listado em ordem do mais recente para o mais antigo.
 
-    [ ] A lista de posts do próprio usuário deve ser listada em ordem do mais recente para o mais antigo.
+    [X] A lista de posts do próprio usuário deve ser listada em ordem do mais recente para o mais antigo.
 
     [ ] O token de autenticação (JWT) deve expirar em 2 horas.
 
