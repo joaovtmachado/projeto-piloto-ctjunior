@@ -34,7 +34,7 @@ Instagram da ct junior
 
     [X] A lista de posts do próprio usuário deve ser listada em ordem do mais recente para o mais antigo.
 
-    [ ] O token de autenticação (JWT) deve expirar em 2 horas.
+    [X] O token de autenticação (JWT) deve expirar em 2 horas.
 
 # RNFs (Requisitos Não-Funcionais)
 
@@ -42,6 +42,6 @@ Instagram da ct junior
 
     [X] Os dados da aplicação precisam estar persistidos em um banco de dados relacional PostgreSQL.
 
-    [ ] O usuário deve ser identificado por um JWT (JSON Web Token) nas rotas que exigem autenticação.
+    [X] O usuário deve ser identificado por um JWT (JSON Web Token) nas rotas que exigem autenticação.
 
-    [ ] O token JWT deve ser assinado com o ID do usuário, nunca com dados sensíveis.
+    [X] O token JWT deve ser assinado com o ID do usuário, nunca com dados sensíveis.
