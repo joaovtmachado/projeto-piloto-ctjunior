@@ -1,7 +1,7 @@
 import { PostsRepository } from '../repositories/posts-repository'
 import { Post } from '@prisma/client'
 import { ResourceNotFoundError } from './errors/resource-not-found-error'
-import { UnauthorizedError } from './errors/unauthorized-error' 
+import { UnauthorizedError } from './errors/unauthorized-error'
 
 interface EditPostUseCaseRequest {
   postId: string
