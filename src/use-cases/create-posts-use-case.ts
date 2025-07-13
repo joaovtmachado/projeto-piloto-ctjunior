@@ -11,7 +11,7 @@ interface PostUseCaseResponse {
   post: Post
 }
 
-export class PostUseCase {
+export class CreatePostUseCase {
   constructor(private postRepository: PostsRepository) {}
 
   async execute({

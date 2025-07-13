@@ -19,7 +19,6 @@ Instagram da ct junior
 
     [X] Deve ser possível deletar uma postagem própria.
 
-    [ ] Deve haver um mecanismo de Logout.
 
 # RNs (Regras de Negócio)
 

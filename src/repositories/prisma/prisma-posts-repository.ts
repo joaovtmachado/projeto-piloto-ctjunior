@@ -28,6 +28,9 @@ export class PrismaPostsRepository implements PostsRepository {
       where: {
         user_id: userId,
       },
+      include: {
+        user: true,
+      },
       orderBy: {
         created_at: 'desc',
       },
