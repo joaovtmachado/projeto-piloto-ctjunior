@@ -3,9 +3,9 @@ Instagram da ct junior
 
 # RFs (Requisitos Funcionais)
 
-    [ ] Deve ser possível se cadastrar.
+    [X] Deve ser possível se cadastrar.
 
-    [ ] Deve ser possível se autenticar.
+    [X] Deve ser possível se autenticar.
 
     [ ] Deve ser possível obter os posts de um usuário logado ([GET] /my-posts).
 
@@ -23,7 +23,7 @@ Instagram da ct junior
 
 # RNs (Regras de Negócio)
 
-    [ ] O usuário não deve poder se cadastrar com um username ou e-mail duplicado.
+    [X] O usuário não deve poder se cadastrar com um username ou e-mail duplicado.
 
     [ ] O usuário só pode alterar a própria foto de perfil.
 
@@ -39,9 +39,9 @@ Instagram da ct junior
 
 # RNFs (Requisitos Não-Funcionais)
 
-    [ ] A senha do usuário precisa estar criptografada no banco de dados (usando Bcrypt).
+    [X] A senha do usuário precisa estar criptografada no banco de dados (usando Bcrypt).
 
-    [ ] Os dados da aplicação precisam estar persistidos em um banco de dados relacional PostgreSQL.
+    [X] Os dados da aplicação precisam estar persistidos em um banco de dados relacional PostgreSQL.
 
     [ ] O usuário deve ser identificado por um JWT (JSON Web Token) nas rotas que exigem autenticação.
 
