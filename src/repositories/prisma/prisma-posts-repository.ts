@@ -16,7 +16,11 @@ export class PrismaPostsRepository implements PostsRepository {
         created_at: 'desc',
       },
       include: {
-        user: true,
+        user: {
+          omit: {
+            password_hash: true,
+          },
+        },
       },
     })
 
@@ -27,9 +31,6 @@ export class PrismaPostsRepository implements PostsRepository {
     const posts = await prisma.post.findMany({
       where: {
         user_id: userId,
-      },
-      include: {
-        user: true,
       },
       orderBy: {
         created_at: 'desc',
